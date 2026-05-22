@@ -1,0 +1,2839 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>PT. ACP Business Support | Management Consulting, Business Legalization & Digital Support</title>
+  <meta name="description" content="PT. ACP Business Support provides professional management consulting, business legalization, corporate administration, OSS, Coretax, digital branding, and website development services in Indonesia." />
+  <meta name="keywords" content="PT ACP Business Support, ACP Business Support, konsultasi manajemen, legalitas usaha, pendirian perseroan perorangan, OSS RBA, NIB, NPWP Badan, Coretax, administrasi bisnis, company profile, landing page, digital business support Indonesia" />
+  <meta name="author" content="PT. ACP Business Support" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://yourdomain.com/" />
+
+  <meta property="og:title" content="PT. ACP Business Support | Strategic Business & Management Consulting Services" />
+  <meta property="og:description" content="Professional partner for management consulting, business legalization, corporate administration, digital branding, and website development services." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://yourdomain.com/" />
+  <meta property="og:image" content="assets/img/hero-business-support.png" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="PT. ACP Business Support" />
+  <meta name="twitter:description" content="Strategic Solutions for Sustainable Business Growth." />
+  <meta name="twitter:image" content="assets/img/hero-business-support.png" />
+
+  <!-- ASSET PLACEHOLDER: Replace with favicon -->
+  <link rel="icon" href="assets/img/logo-acp.png" />
+
+  <!-- Corporate Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Sora:wght@500;600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Clean professional icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "PT. ACP Business Support",
+    "description": "Management consulting, business legalization, corporate administration, digital branding, and website development services in Indonesia.",
+    "email": "acpbusinesssupport@gmail.com",
+    "telephone": "+6285715489818",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Jakarta Selatan",
+      "addressCountry": "ID"
+    },
+    "areaServed": "Indonesia",
+    "openingHours": "Mo-Fr 09:00-17:00",
+    "url": "https://yourdomain.com/",
+    "sameAs": [
+      "https://linkedin.com/company/replace-this-link",
+      "https://instagram.com/replace-this-link",
+      "https://tiktok.com/@replace-this-link"
+    ],
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "ACP Business Support Services",
+      "itemListElement": [
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Management Consulting" }},
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Business Legalization & Licensing" }},
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Business Administration Support" }},
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Digital Support & Branding" }},
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Website & Landing Page Development" }}
+      ]
+    }
+  }
+  </script>
+
+  <style>
+    :root {
+      --bg: #07080a;
+      --bg-soft: #0d0f13;
+      --surface: rgba(255, 255, 255, 0.055);
+      --surface-strong: rgba(255, 255, 255, 0.085);
+      --surface-solid: #11141a;
+      --text: #f4f6f8;
+      --muted: #aeb7c2;
+      --subtle: #7d8792;
+      --line: rgba(255, 255, 255, 0.12);
+      --accent: #b8c7d9;
+      --accent-2: #dce6ef;
+      --inverse: #07080a;
+      --shadow: 0 24px 80px rgba(0, 0, 0, 0.42);
+      --radius-xl: 28px;
+      --radius-lg: 22px;
+      --radius-md: 16px;
+      --header-h: 78px;
+      --container: 1180px;
+    }
+
+    body.light {
+      --bg: #f5f7fa;
+      --bg-soft: #eef1f5;
+      --surface: rgba(255, 255, 255, 0.82);
+      --surface-strong: rgba(255, 255, 255, 0.96);
+      --surface-solid: #ffffff;
+      --text: #111827;
+      --muted: #4b5563;
+      --subtle: #6b7280;
+      --line: rgba(17, 24, 39, 0.12);
+      --accent: #4f667d;
+      --accent-2: #111827;
+      --inverse: #ffffff;
+      --shadow: 0 22px 70px rgba(15, 23, 42, 0.12);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      scroll-padding-top: calc(var(--header-h) + 22px);
+    }
+
+    body {
+      font-family: "Inter", sans-serif;
+      background:
+        radial-gradient(circle at 15% 10%, rgba(184, 199, 217, 0.13), transparent 34%),
+        radial-gradient(circle at 85% 0%, rgba(255, 255, 255, 0.075), transparent 28%),
+        linear-gradient(135deg, var(--bg), var(--bg-soft));
+      color: var(--text);
+      line-height: 1.7;
+      overflow-x: hidden;
+      transition: background 0.35s ease, color 0.35s ease;
+    }
+
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      background-image:
+        linear-gradient(rgba(255,255,255,0.035) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255,255,255,0.035) 1px, transparent 1px);
+      background-size: 48px 48px;
+      mask-image: linear-gradient(to bottom, rgba(0,0,0,0.68), transparent 76%);
+      z-index: -1;
+    }
+
+    body.light::before {
+      background-image:
+        linear-gradient(rgba(17,24,39,0.04) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(17,24,39,0.04) 1px, transparent 1px);
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    img {
+      display: block;
+      max-width: 100%;
+    }
+
+    button,
+    input,
+    select,
+    textarea {
+      font: inherit;
+    }
+
+    .container {
+      width: min(var(--container), calc(100% - 40px));
+      margin: 0 auto;
+    }
+
+    .site-header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: var(--header-h);
+      z-index: 1000;
+      backdrop-filter: blur(18px);
+      background: rgba(7, 8, 10, 0.72);
+      border-bottom: 1px solid var(--line);
+      transition: background 0.35s ease, box-shadow 0.35s ease;
+    }
+
+    body.light .site-header {
+      background: rgba(245, 247, 250, 0.78);
+    }
+
+    .site-header.scrolled {
+      box-shadow: 0 18px 55px rgba(0, 0, 0, 0.22);
+    }
+
+    .nav {
+      height: 100%;
+      width: min(1240px, calc(100% - 32px));
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 18px;
+    }
+
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      min-width: max-content;
+    }
+
+    .brand-mark {
+      width: 44px;
+      height: 44px;
+      border-radius: 14px;
+      display: grid;
+      place-items: center;
+      font-family: "Sora", sans-serif;
+      font-size: 13px;
+      font-weight: 800;
+      color: var(--text);
+      background: linear-gradient(135deg, var(--surface-strong), rgba(255,255,255,0.025));
+      border: 1px solid var(--line);
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.12);
+      overflow: hidden;
+    }
+
+    .brand-mark img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .brand-text {
+      display: flex;
+      flex-direction: column;
+      line-height: 1.12;
+    }
+
+    .brand-name {
+      font-family: "Sora", sans-serif;
+      font-size: 14px;
+      font-weight: 800;
+      letter-spacing: -0.03em;
+      color: var(--text);
+    }
+
+    .brand-role {
+      font-size: 11px;
+      color: var(--muted);
+      font-weight: 600;
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      padding: 7px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: rgba(255,255,255,0.035);
+    }
+
+    .nav-links a {
+      font-size: 12px;
+      font-weight: 700;
+      color: var(--muted);
+      padding: 9px 12px;
+      border-radius: 999px;
+      transition: 0.25s ease;
+    }
+
+    .nav-links a:hover,
+    .nav-links a.active {
+      color: var(--text);
+      background: var(--surface-strong);
+    }
+
+    .nav-actions {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .segmented {
+      display: inline-flex;
+      align-items: center;
+      gap: 2px;
+      padding: 4px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: rgba(255,255,255,0.035);
+    }
+
+    .segmented button,
+    .icon-btn,
+    .menu-toggle {
+      border: 0;
+      cursor: pointer;
+      color: var(--muted);
+      background: transparent;
+      font-family: inherit;
+      font-size: 12px;
+      font-weight: 800;
+      border-radius: 999px;
+      transition: 0.25s ease;
+    }
+
+    .segmented button {
+      padding: 8px 11px;
+    }
+
+    .segmented button.active {
+      color: var(--inverse);
+      background: var(--accent-2);
+    }
+
+    body.light .segmented button.active {
+      color: #ffffff;
+      background: #111827;
+    }
+
+    .icon-btn,
+    .menu-toggle {
+      width: 40px;
+      height: 40px;
+      display: grid;
+      place-items: center;
+      border: 1px solid var(--line);
+      background: rgba(255,255,255,0.035);
+    }
+
+    .icon-btn:hover,
+    .menu-toggle:hover {
+      color: var(--text);
+      transform: translateY(-1px);
+      background: var(--surface-strong);
+    }
+
+    .menu-toggle {
+      display: none;
+    }
+
+    main {
+      padding-top: var(--header-h);
+    }
+
+    section {
+      padding: 96px 0;
+      position: relative;
+    }
+
+    h1,
+    h2,
+    h3 {
+      font-family: "Sora", sans-serif;
+      letter-spacing: -0.045em;
+      line-height: 1.08;
+      color: var(--text);
+    }
+
+    h1 {
+      font-size: clamp(42px, 6vw, 76px);
+      max-width: 900px;
+      margin-bottom: 18px;
+    }
+
+    h2 {
+      font-size: clamp(32px, 4vw, 52px);
+    }
+
+    h3 {
+      font-size: 18px;
+    }
+
+    p {
+      color: var(--muted);
+    }
+
+    .hero {
+      min-height: calc(100vh - var(--header-h));
+      display: flex;
+      align-items: center;
+      padding: 88px 0 72px;
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1.1fr 0.9fr;
+      gap: 44px;
+      align-items: center;
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      width: fit-content;
+      padding: 8px 12px;
+      border-radius: 999px;
+      border: 1px solid var(--line);
+      background: rgba(255,255,255,0.04);
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 800;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      margin-bottom: 18px;
+    }
+
+    .dot {
+      width: 7px;
+      height: 7px;
+      border-radius: 999px;
+      background: var(--accent);
+      box-shadow: 0 0 14px rgba(184, 199, 217, 0.38);
+    }
+
+    .hero-role {
+      color: var(--accent-2);
+      font-size: clamp(18px, 2vw, 24px);
+      font-weight: 800;
+      margin-bottom: 18px;
+      max-width: 760px;
+    }
+
+    .lead {
+      color: var(--muted);
+      font-size: 17px;
+      max-width: 760px;
+    }
+
+    .hero-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin: 28px 0;
+    }
+
+    .chip {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 9px 12px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      color: var(--muted);
+      background: rgba(255,255,255,0.035);
+      font-size: 13px;
+      font-weight: 650;
+    }
+
+    .chip i,
+    .btn i,
+    .card-icon i,
+    .contact-icon i,
+    .social-btn i,
+    .floating-whatsapp i,
+    .back-to-top i {
+      width: 17px;
+      height: 17px;
+      stroke-width: 1.9;
+    }
+
+    .cta-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 28px;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 9px;
+      min-height: 48px;
+      padding: 0 18px;
+      border-radius: 999px;
+      border: 1px solid var(--line);
+      font-size: 14px;
+      font-weight: 800;
+      transition: 0.25s ease;
+      cursor: pointer;
+    }
+
+    .btn-primary {
+      background: var(--accent-2);
+      color: var(--inverse);
+      border-color: transparent;
+    }
+
+    body.light .btn-primary {
+      color: #ffffff;
+      background: #111827;
+    }
+
+    .btn-secondary {
+      background: rgba(255,255,255,0.045);
+      color: var(--text);
+    }
+
+    .btn:hover {
+      transform: translateY(-2px);
+      box-shadow: var(--shadow);
+    }
+
+    .hero-card {
+      position: relative;
+      border: 1px solid var(--line);
+      border-radius: var(--radius-xl);
+      padding: 18px;
+      background: linear-gradient(145deg, var(--surface-strong), rgba(255,255,255,0.025));
+      box-shadow: var(--shadow);
+      overflow: hidden;
+    }
+
+    .hero-card::before {
+      content: "";
+      position: absolute;
+      inset: -1px;
+      background: radial-gradient(circle at 20% 0%, rgba(255,255,255,0.14), transparent 32%);
+      pointer-events: none;
+    }
+
+    .profile-frame {
+      position: relative;
+      min-height: 455px;
+      border-radius: 24px;
+      border: 1px solid var(--line);
+      background:
+        linear-gradient(145deg, rgba(255,255,255,0.08), rgba(255,255,255,0.02)),
+        repeating-linear-gradient(135deg, rgba(255,255,255,0.04) 0 1px, transparent 1px 12px);
+      display: grid;
+      place-items: center;
+      overflow: hidden;
+    }
+
+    .asset-placeholder {
+      position: relative;
+      z-index: 2;
+      width: min(82%, 360px);
+      border: 1px dashed rgba(255,255,255,0.25);
+      border-radius: 22px;
+      padding: 26px;
+      text-align: center;
+      background: rgba(0,0,0,0.14);
+      color: var(--muted);
+    }
+
+    body.light .asset-placeholder {
+      background: rgba(255,255,255,0.48);
+      border-color: rgba(17,24,39,0.22);
+    }
+
+    .asset-placeholder strong {
+      display: block;
+      color: var(--text);
+      font-size: 15px;
+      margin-bottom: 8px;
+    }
+
+    .mini-panel {
+      position: absolute;
+      left: 18px;
+      right: 18px;
+      bottom: 18px;
+      z-index: 3;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+    }
+
+    .mini-item {
+      padding: 14px;
+      border-radius: 18px;
+      border: 1px solid var(--line);
+      background: rgba(7, 8, 10, 0.72);
+      backdrop-filter: blur(14px);
+    }
+
+    body.light .mini-item {
+      background: rgba(255, 255, 255, 0.82);
+    }
+
+    .mini-value {
+      display: block;
+      font-family: "Sora", sans-serif;
+      font-weight: 800;
+      font-size: 20px;
+      color: var(--text);
+    }
+
+    .mini-label {
+      display: block;
+      color: var(--muted);
+      font-size: 11px;
+      line-height: 1.35;
+    }
+
+    .section-head {
+      display: grid;
+      grid-template-columns: 0.72fr 1.28fr;
+      gap: 28px;
+      align-items: end;
+      margin-bottom: 34px;
+    }
+
+    .section-kicker {
+      color: var(--accent);
+      font-size: 12px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.09em;
+      margin-bottom: 12px;
+    }
+
+    .section-desc {
+      color: var(--muted);
+      font-size: 16px;
+      max-width: 720px;
+    }
+
+    .panel,
+    .card,
+    .project-card,
+    .contact-card {
+      border: 1px solid var(--line);
+      background: var(--surface);
+      box-shadow: var(--shadow);
+    }
+
+    .panel {
+      border-radius: var(--radius-xl);
+    }
+
+    .card {
+      position: relative;
+      border-radius: var(--radius-lg);
+      padding: 24px;
+      transition: 0.28s ease;
+      overflow: hidden;
+    }
+
+    .card::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(circle at 20% 0%, rgba(255,255,255,0.085), transparent 28%);
+      opacity: 0;
+      transition: 0.28s ease;
+      pointer-events: none;
+    }
+
+    .card:hover {
+      transform: translateY(-6px);
+      border-color: rgba(184, 199, 217, 0.32);
+      box-shadow: var(--shadow);
+    }
+
+    .card:hover::after {
+      opacity: 1;
+    }
+
+    .card-icon {
+      width: 42px;
+      height: 42px;
+      display: grid;
+      place-items: center;
+      border-radius: 14px;
+      border: 1px solid var(--line);
+      background: rgba(255,255,255,0.055);
+      color: var(--accent-2);
+      margin-bottom: 16px;
+    }
+
+    .card h3 {
+      margin-bottom: 10px;
+      letter-spacing: -0.03em;
+    }
+
+    .card p {
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .grid {
+      display: grid;
+      gap: 18px;
+    }
+
+    .grid-2 {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .grid-3 {
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    .grid-4 {
+      grid-template-columns: repeat(4, 1fr);
+    }
+
+    .profile-layout {
+      display: grid;
+      grid-template-columns: 1.2fr 0.8fr;
+      gap: 22px;
+    }
+
+    .profile-copy {
+      padding: 34px;
+    }
+
+    .profile-copy p {
+      color: var(--muted);
+      margin-bottom: 18px;
+    }
+
+    .highlight-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 12px;
+      margin-top: 24px;
+    }
+
+    .highlight {
+      display: flex;
+      align-items: center;
+      gap: 9px;
+      padding: 13px;
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      background: rgba(255,255,255,0.035);
+      color: var(--text);
+      font-size: 13px;
+      font-weight: 750;
+    }
+
+    .highlight i {
+      width: 16px;
+      height: 16px;
+      color: var(--accent);
+    }
+
+    .metric-stack {
+      display: grid;
+      gap: 14px;
+    }
+
+    .metric-card {
+      padding: 24px;
+      border-radius: var(--radius-lg);
+      border: 1px solid var(--line);
+      background: linear-gradient(145deg, var(--surface-strong), rgba(255,255,255,0.02));
+    }
+
+    .metric-card strong {
+      display: block;
+      font-family: "Sora", sans-serif;
+      font-size: 26px;
+      line-height: 1;
+      margin-bottom: 8px;
+      color: var(--text);
+    }
+
+    .metric-card span {
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .service-value {
+      margin-top: 16px;
+      padding: 12px 0 0 14px;
+      border-left: 2px solid var(--accent);
+      color: var(--muted);
+      font-size: 13px;
+      font-weight: 700;
+    }
+
+    .card-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      margin-top: 18px;
+      color: var(--accent-2);
+      font-size: 13px;
+      font-weight: 800;
+    }
+
+    .mission-list,
+    .package-list,
+    .scope-list {
+      list-style: none;
+      display: grid;
+      gap: 9px;
+      margin-top: 16px;
+    }
+
+    .mission-list li,
+    .package-list li,
+    .scope-list li {
+      position: relative;
+      color: var(--muted);
+      font-size: 14px;
+      padding-left: 20px;
+    }
+
+    .mission-list li::before,
+    .package-list li::before,
+    .scope-list li::before {
+      content: "";
+      width: 6px;
+      height: 6px;
+      border-radius: 999px;
+      background: var(--accent);
+      position: absolute;
+      left: 0;
+      top: 10px;
+    }
+
+    .package-card {
+      min-height: 100%;
+    }
+
+    .package-featured {
+      border-color: rgba(220, 230, 239, 0.34);
+      background: linear-gradient(145deg, var(--surface-strong), rgba(255,255,255,0.035));
+    }
+
+    .package-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      padding: 7px 11px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: rgba(255,255,255,0.035);
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 800;
+      margin-bottom: 16px;
+    }
+
+    .package-price {
+      font-family: "Sora", sans-serif;
+      font-size: 22px;
+      color: var(--text);
+      margin: 14px 0;
+      letter-spacing: -0.03em;
+    }
+
+    .timeline {
+      display: grid;
+      grid-template-columns: repeat(7, 1fr);
+      gap: 14px;
+    }
+
+    .step {
+      position: relative;
+      padding: 18px;
+      min-height: 150px;
+      border-radius: var(--radius-lg);
+      border: 1px solid var(--line);
+      background: var(--surface);
+      transition: 0.25s ease;
+    }
+
+    .step:hover {
+      transform: translateY(-4px);
+      background: var(--surface-strong);
+    }
+
+    .step-number {
+      width: 34px;
+      height: 34px;
+      display: grid;
+      place-items: center;
+      border-radius: 999px;
+      border: 1px solid var(--line);
+      margin-bottom: 18px;
+      color: var(--text);
+      font-weight: 800;
+      font-size: 12px;
+      background: rgba(255,255,255,0.045);
+    }
+
+    .step h3 {
+      font-size: 14px;
+      letter-spacing: -0.02em;
+    }
+
+    .filter-row {
+      display: flex;
+      gap: 9px;
+      flex-wrap: wrap;
+      margin-bottom: 24px;
+    }
+
+    .filter-btn {
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: rgba(255,255,255,0.035);
+      color: var(--muted);
+      padding: 9px 13px;
+      font-size: 12px;
+      font-weight: 800;
+      cursor: pointer;
+      transition: 0.25s ease;
+    }
+
+    .filter-btn:hover,
+    .filter-btn.active {
+      color: var(--inverse);
+      background: var(--accent-2);
+      border-color: transparent;
+    }
+
+    body.light .filter-btn:hover,
+    body.light .filter-btn.active {
+      color: #ffffff;
+      background: #111827;
+    }
+
+    .portfolio-card.hide {
+      display: none;
+    }
+
+    .asset-slot {
+      min-height: 170px;
+      border-radius: 18px;
+      border: 1px dashed rgba(255,255,255,0.22);
+      background:
+        linear-gradient(145deg, rgba(255,255,255,0.065), rgba(255,255,255,0.02)),
+        repeating-linear-gradient(135deg, rgba(255,255,255,0.032) 0 1px, transparent 1px 12px);
+      display: grid;
+      place-items: center;
+      padding: 18px;
+      text-align: center;
+      color: var(--muted);
+      margin-bottom: 18px;
+      font-size: 12px;
+    }
+
+    body.light .asset-slot {
+      border-color: rgba(17,24,39,0.18);
+    }
+
+    .asset-slot strong {
+      display: block;
+      color: var(--text);
+      margin-bottom: 6px;
+      font-size: 13px;
+    }
+
+    .portfolio-tag {
+      display: inline-flex;
+      color: var(--accent);
+      font-size: 12px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.07em;
+      margin-bottom: 10px;
+    }
+
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 16px;
+    }
+
+    .stat-card {
+      text-align: center;
+    }
+
+    .stat-card strong {
+      display: block;
+      font-family: "Sora", sans-serif;
+      color: var(--text);
+      font-size: 30px;
+      line-height: 1;
+      margin-bottom: 10px;
+      letter-spacing: -0.04em;
+    }
+
+    .stat-card span {
+      color: var(--muted);
+      font-size: 13px;
+      font-weight: 700;
+    }
+
+    .checklist {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px;
+      margin-top: 20px;
+    }
+
+    .check-item {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 12px;
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      background: rgba(255,255,255,0.035);
+      color: var(--muted);
+      font-size: 13px;
+      font-weight: 700;
+    }
+
+    .check-item i {
+      width: 16px;
+      height: 16px;
+      color: var(--accent-2);
+      flex: 0 0 auto;
+    }
+
+    .faq-list {
+      display: grid;
+      gap: 12px;
+      max-width: 920px;
+      margin: 0 auto;
+    }
+
+    .faq-item {
+      padding: 0;
+    }
+
+    .faq-question {
+      width: 100%;
+      border: 0;
+      background: transparent;
+      color: var(--text);
+      padding: 20px 22px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 16px;
+      cursor: pointer;
+      text-align: left;
+      font-weight: 800;
+    }
+
+    .faq-icon {
+      width: 34px;
+      height: 34px;
+      border-radius: 999px;
+      border: 1px solid var(--line);
+      display: grid;
+      place-items: center;
+      color: var(--muted);
+      flex: 0 0 auto;
+      transition: 0.25s ease;
+    }
+
+    .faq-icon i {
+      width: 16px;
+      height: 16px;
+    }
+
+    .faq-answer {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.28s ease, padding 0.28s ease;
+      padding: 0 22px;
+    }
+
+    .faq-item.active .faq-answer {
+      max-height: 260px;
+      padding: 0 22px 22px;
+    }
+
+    .faq-item.active .faq-icon {
+      transform: rotate(45deg);
+      color: var(--text);
+      background: var(--surface-strong);
+    }
+
+    .contact-layout {
+      display: grid;
+      grid-template-columns: 0.9fr 1.1fr;
+      gap: 22px;
+      align-items: start;
+    }
+
+    .contact-card {
+      border-radius: var(--radius-xl);
+      padding: 34px;
+      background:
+        radial-gradient(circle at 0% 0%, rgba(184,199,217,0.10), transparent 30%),
+        var(--surface);
+    }
+
+    .contact-list {
+      display: grid;
+      gap: 12px;
+      margin-top: 24px;
+    }
+
+    .contact-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      padding: 14px;
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      background: rgba(255,255,255,0.035);
+    }
+
+    .contact-icon {
+      width: 38px;
+      height: 38px;
+      display: grid;
+      place-items: center;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      color: var(--accent-2);
+      flex: 0 0 auto;
+    }
+
+    .contact-item span {
+      display: block;
+      color: var(--subtle);
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      font-weight: 800;
+      margin-bottom: 2px;
+    }
+
+    .contact-item strong,
+    .contact-item a {
+      color: var(--text);
+      font-size: 14px;
+      font-weight: 750;
+      word-break: break-word;
+    }
+
+    .social-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 9px;
+      margin-top: 22px;
+    }
+
+    .social-btn {
+      width: 42px;
+      height: 42px;
+      display: grid;
+      place-items: center;
+      border-radius: 14px;
+      border: 1px solid var(--line);
+      background: rgba(255,255,255,0.035);
+      color: var(--muted);
+      transition: 0.25s ease;
+    }
+
+    .social-btn:hover {
+      transform: translateY(-2px);
+      color: var(--text);
+      background: var(--surface-strong);
+    }
+
+    .form-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 14px;
+    }
+
+    .form-group.full {
+      grid-column: 1 / -1;
+    }
+
+    label {
+      display: block;
+      color: var(--text);
+      font-size: 13px;
+      font-weight: 800;
+      margin-bottom: 8px;
+    }
+
+    input,
+    select,
+    textarea {
+      width: 100%;
+      border: 1px solid var(--line);
+      background: rgba(255,255,255,0.04);
+      color: var(--text);
+      border-radius: 16px;
+      padding: 13px 14px;
+      outline: none;
+      transition: 0.25s ease;
+    }
+
+    input:focus,
+    select:focus,
+    textarea:focus {
+      border-color: rgba(184,199,217,0.42);
+      background: rgba(255,255,255,0.06);
+    }
+
+    select option {
+      color: #111827;
+    }
+
+    textarea {
+      min-height: 132px;
+      resize: vertical;
+    }
+
+    .closing-card {
+      text-align: center;
+      padding: 48px 34px;
+    }
+
+    .closing-card p {
+      max-width: 860px;
+      margin: 18px auto 0;
+    }
+
+    .footer {
+      padding: 56px 0 28px;
+      border-top: 1px solid var(--line);
+    }
+
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 1.35fr 0.75fr 0.9fr 1fr;
+      gap: 24px;
+      margin-bottom: 30px;
+    }
+
+    .footer h3 {
+      font-size: 16px;
+      margin-bottom: 14px;
+    }
+
+    .footer p,
+    .footer a {
+      display: block;
+      color: var(--muted);
+      font-size: 13px;
+      font-weight: 650;
+      margin-bottom: 8px;
+    }
+
+    .footer-bottom {
+      display: flex;
+      justify-content: space-between;
+      gap: 18px;
+      border-top: 1px solid var(--line);
+      padding-top: 20px;
+      color: var(--subtle);
+      font-size: 13px;
+    }
+
+    .floating-whatsapp,
+    .back-to-top {
+      position: fixed;
+      right: 22px;
+      z-index: 995;
+      border: 1px solid var(--line);
+      cursor: pointer;
+      display: grid;
+      place-items: center;
+      box-shadow: var(--shadow);
+      transition: 0.25s ease;
+    }
+
+    .floating-whatsapp {
+      bottom: 24px;
+      width: 54px;
+      height: 54px;
+      border-radius: 18px;
+      background: var(--accent-2);
+      color: var(--inverse);
+    }
+
+    body.light .floating-whatsapp {
+      color: #ffffff;
+      background: #111827;
+    }
+
+    .back-to-top {
+      bottom: 88px;
+      width: 44px;
+      height: 44px;
+      border-radius: 16px;
+      background: var(--surface-strong);
+      color: var(--text);
+      opacity: 0;
+      pointer-events: none;
+    }
+
+    .back-to-top.show {
+      opacity: 1;
+      pointer-events: auto;
+    }
+
+    .reveal {
+      opacity: 0;
+      transform: translateY(24px);
+      transition: opacity 0.7s ease, transform 0.7s ease;
+    }
+
+    .reveal.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    @media (max-width: 1120px) {
+      .nav-links {
+        position: fixed;
+        top: calc(var(--header-h) + 12px);
+        left: 20px;
+        right: 20px;
+        display: none;
+        flex-direction: column;
+        align-items: stretch;
+        border-radius: 24px;
+        padding: 12px;
+        background: var(--surface-solid);
+        box-shadow: var(--shadow);
+      }
+
+      .nav-links.open {
+        display: flex;
+      }
+
+      .nav-links a {
+        padding: 13px 14px;
+      }
+
+      .menu-toggle {
+        display: grid;
+      }
+
+      .hero-grid,
+      .section-head,
+      .profile-layout,
+      .contact-layout {
+        grid-template-columns: 1fr;
+      }
+
+      .grid-4,
+      .stats-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .timeline {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .brand-role {
+        display: none;
+      }
+    }
+
+    @media (max-width: 760px) {
+      :root {
+        --header-h: 72px;
+      }
+
+      .container {
+        width: min(100% - 28px, var(--container));
+      }
+
+      section {
+        padding: 72px 0;
+      }
+
+      .hero {
+        padding-top: 64px;
+      }
+
+      h1 {
+        font-size: 42px;
+      }
+
+      .hero-role {
+        font-size: 18px;
+      }
+
+      .profile-frame {
+        min-height: 420px;
+      }
+
+      .mini-panel {
+        grid-template-columns: 1fr;
+      }
+
+      .grid-2,
+      .grid-3,
+      .grid-4,
+      .stats-grid,
+      .timeline,
+      .highlight-grid,
+      .checklist,
+      .form-grid,
+      .footer-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .profile-copy,
+      .contact-card {
+        padding: 24px;
+      }
+
+      .cta-row {
+        flex-direction: column;
+      }
+
+      .btn {
+        width: 100%;
+      }
+
+      .footer-bottom {
+        flex-direction: column;
+      }
+    }
+/* FIX: Precise icon centering inside circular / rounded icon buttons */
+.contact-icon,
+.social-btn,
+.floating-whatsapp,
+.back-to-top,
+.icon-btn,
+.menu-toggle,
+.card-icon,
+.brand-mark {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  line-height: 0 !important;
+  text-align: center !important;
+}
+
+.contact-icon svg,
+.social-btn svg,
+.floating-whatsapp svg,
+.back-to-top svg,
+.icon-btn svg,
+.menu-toggle svg,
+.card-icon svg {
+  display: block !important;
+  width: 18px !important;
+  height: 18px !important;
+  margin: 0 !important;
+  flex-shrink: 0 !important;
+  stroke-width: 1.9 !important;
+}
+
+.social-btn {
+  width: 42px;
+  height: 42px;
+  padding: 0 !important;
+  border-radius: 14px;
+}
+
+.contact-icon {
+  width: 38px;
+  height: 38px;
+  padding: 0 !important;
+  border-radius: 14px;
+}
+
+/* FIX: Brand social SVG icons */
+.brand-social-icon {
+  width: 18px !important;
+  height: 18px !important;
+  display: block !important;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.9;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+    @media (prefers-reduced-motion: reduce) {
+      *,
+      *::before,
+      *::after {
+        animation: none !important;
+        scroll-behavior: auto !important;
+        transition: none !important;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header class="site-header" id="siteHeader">
+    <nav class="nav">
+      <a href="#home" class="brand" aria-label="Go to home">
+        <span class="brand-mark">
+          <!-- ASSET PLACEHOLDER: Replace with ACP logo if ready -->
+          <!-- <img src="assets/img/logo-acp.png" alt="PT. ACP Business Support Logo" /> -->
+          ACP
+        </span>
+        <span class="brand-text">
+          <span class="brand-name">PT. ACP Business Support</span>
+          <span class="brand-role" data-copy="brandRole">Strategic Business Support</span>
+        </span>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" type="button" aria-label="Open navigation">
+        <i data-lucide="menu"></i>
+      </button>
+
+      <div class="nav-links" id="navLinks">
+        <a href="#home" class="active" data-copy="navHome">Home</a>
+        <a href="#about" data-copy="navAbout">About</a>
+        <a href="#services" data-copy="navServices">Services</a>
+        <a href="#process" data-copy="navProcess">Process</a>
+        <a href="#portfolio" data-copy="navPortfolio">Portfolio</a>
+        <a href="#why" data-copy="navWhy">Why Us</a>
+        <a href="#faq" data-copy="navFaq">FAQ</a>
+        <a href="#contact" data-copy="navContact">Contact</a>
+      </div>
+
+      <div class="nav-actions">
+        <div class="segmented" aria-label="Language switcher">
+          <button id="btnID" class="active" type="button">ID</button>
+          <button id="btnEN" type="button">EN</button>
+        </div>
+
+        <button class="icon-btn" id="themeToggle" type="button" aria-label="Toggle theme">
+          <i data-lucide="moon"></i>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <div class="eyebrow">
+            <span class="dot"></span>
+            <span data-copy="heroEyebrow">Strategic Business & Management Consulting Services</span>
+          </div>
+
+          <h1 data-copy="heroTitle">Solusi Strategis untuk Konsultasi Manajemen, Legalitas Usaha, Administrasi Bisnis, dan Digital Support Modern</h1>
+
+          <p class="hero-role" data-copy="heroRole">Strategic Solutions for Sustainable Business Growth.</p>
+
+          <p class="lead" data-copy="heroLead">
+            Mitra profesional dalam solusi konsultasi manajemen, legalitas usaha, administrasi bisnis, dan pengembangan digital modern untuk mendukung pertumbuhan bisnis yang efektif, terpercaya, dan berkelanjutan.
+          </p>
+
+          <div class="hero-meta">
+            <span class="chip"><i data-lucide="map-pin"></i> Jakarta Selatan, Indonesia</span>
+            <span class="chip"><i data-lucide="mail"></i> acpbusinesssupport@gmail.com</span>
+            <span class="chip"><i data-lucide="phone"></i> +62 857-1548-9818</span>
+          </div>
+
+          <div class="cta-row">
+            <a href="#lead-form" class="btn btn-primary">
+              <i data-lucide="send"></i>
+              <span data-copy="heroBtn1">Konsultasi Sekarang</span>
+            </a>
+            <a href="#services" class="btn btn-secondary">
+              <i data-lucide="layout-list"></i>
+              <span data-copy="heroBtn2">Lihat Layanan</span>
+            </a>
+            <a href="https://wa.me/6285715489818" target="_blank" rel="noopener" class="btn btn-secondary">
+              <i data-lucide="message-circle"></i>
+              <span data-copy="heroBtn3">Hubungi via WhatsApp</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-card reveal">
+          <div class="profile-frame">
+            <div class="asset-placeholder">
+              <strong data-copy="heroAssetTitle">ACP Business Support Visual</strong>
+              <span data-copy="heroAssetDesc">Ganti area ini dengan logo, ilustrasi bisnis, atau dokumentasi profesional.</span>
+              <br /><br />
+              <small>assets/img/hero-business-support.png</small>
+            </div>
+
+            <div class="mini-panel">
+              <div class="mini-item">
+                <span class="mini-value">1–3</span>
+                <span class="mini-label" data-copy="mini1">Estimasi hari kerja untuk proses tertentu</span>
+              </div>
+              <div class="mini-item">
+                <span class="mini-value">5+</span>
+                <span class="mini-label" data-copy="mini2">Lingkup layanan business support</span>
+              </div>
+              <div class="mini-item">
+                <span class="mini-value">ID</span>
+                <span class="mini-label" data-copy="mini3">Layanan untuk area Indonesia</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <p class="section-kicker" data-copy="aboutKicker">About Us</p>
+            <h2 data-copy="aboutTitle">Mitra profesional untuk fondasi bisnis yang lebih kuat.</h2>
+          </div>
+          <p class="section-desc" data-copy="aboutDesc">
+            PT. ACP Business Support hadir sebagai mitra strategis bagi pelaku usaha, profesional, dan perusahaan berkembang di Indonesia.
+          </p>
+        </div>
+
+        <div class="profile-layout">
+          <div class="panel profile-copy reveal">
+            <p data-copy="aboutP1"></p>
+            <p data-copy="aboutP2"></p>
+            <p data-copy="aboutP3"></p>
+
+            <div class="highlight-grid">
+              <div class="highlight"><i data-lucide="badge-check"></i><span data-copy="high1">Professional</span></div>
+              <div class="highlight"><i data-lucide="target"></i><span data-copy="high2">Accurate</span></div>
+              <div class="highlight"><i data-lucide="workflow"></i><span data-copy="high3">Structured</span></div>
+              <div class="highlight"><i data-lucide="timer"></i><span data-copy="high4">Fast Execution</span></div>
+              <div class="highlight"><i data-lucide="users"></i><span data-copy="high5">Client-Oriented</span></div>
+              <div class="highlight"><i data-lucide="file-check-2"></i><span data-copy="high6">Documentation-Ready</span></div>
+            </div>
+          </div>
+
+          <div class="metric-stack reveal">
+            <div class="metric-card">
+              <strong>Consulting</strong>
+              <span data-copy="metric1">Konsultasi manajemen dan pendampingan bisnis profesional.</span>
+            </div>
+            <div class="metric-card">
+              <strong>Legalization</strong>
+              <span data-copy="metric2">OSS RBA, AHU, NIB, NPWP Badan, Coretax, dan KBLI.</span>
+            </div>
+            <div class="metric-card">
+              <strong>Digital</strong>
+              <span data-copy="metric3">Company profile, presentasi, branding, portfolio, dan landing page.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- VISION MISSION -->
+    <section id="vision">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <p class="section-kicker" data-copy="visionKicker">Vision & Mission</p>
+            <h2 data-copy="visionTitle">Arah kerja yang profesional, modern, dan berkelanjutan.</h2>
+          </div>
+          <p class="section-desc" data-copy="visionDesc">
+            Kami membangun layanan berdasarkan integritas, kualitas, adaptasi teknologi, dan kebutuhan bisnis modern.
+          </p>
+        </div>
+
+        <div class="grid grid-2">
+          <article class="card reveal">
+            <div class="card-icon"><i data-lucide="telescope"></i></div>
+            <h3 data-copy="visionCardTitle">Visi</h3>
+            <p data-copy="visionText"></p>
+          </article>
+
+          <article class="card reveal">
+            <div class="card-icon"><i data-lucide="list-checks"></i></div>
+            <h3 data-copy="missionCardTitle">Misi</h3>
+            <ul class="mission-list">
+              <li data-copy="mission1"></li>
+              <li data-copy="mission2"></li>
+              <li data-copy="mission3"></li>
+              <li data-copy="mission4"></li>
+              <li data-copy="mission5"></li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <p class="section-kicker" data-copy="servicesKicker">Services</p>
+            <h2 data-copy="servicesTitle">Layanan terintegrasi untuk kebutuhan bisnis modern.</h2>
+          </div>
+          <p class="section-desc" data-copy="servicesDesc">
+            Dari konsultasi, legalitas, administrasi, hingga pengembangan digital bisnis.
+          </p>
+        </div>
+
+        <div class="grid grid-3">
+          <article class="card reveal">
+            <div class="card-icon"><i data-lucide="briefcase-business"></i></div>
+            <h3 data-copy="service1Title"></h3>
+            <p data-copy="service1Text"></p>
+            <div class="service-value">Strategic planning, professional guidance, and effective business solutions.</div>
+            <a href="#lead-form" class="card-link"><span data-copy="learnMore">Pelajari Layanan</span><i data-lucide="arrow-right"></i></a>
+          </article>
+
+          <article class="card reveal">
+            <div class="card-icon"><i data-lucide="landmark"></i></div>
+            <h3 data-copy="service2Title"></h3>
+            <p data-copy="service2Text"></p>
+            <div class="service-value">Fast, accurate, compliant, and professionally managed legal processes.</div>
+            <a href="#lead-form" class="card-link"><span data-copy="learnMore">Pelajari Layanan</span><i data-lucide="arrow-right"></i></a>
+          </article>
+
+          <article class="card reveal">
+            <div class="card-icon"><i data-lucide="folder-check"></i></div>
+            <h3 data-copy="service3Title"></h3>
+            <p data-copy="service3Text"></p>
+            <div class="service-value">Efficient documentation management and operational support.</div>
+            <a href="#lead-form" class="card-link"><span data-copy="learnMore">Pelajari Layanan</span><i data-lucide="arrow-right"></i></a>
+          </article>
+
+          <article class="card reveal">
+            <div class="card-icon"><i data-lucide="presentation"></i></div>
+            <h3 data-copy="service4Title"></h3>
+            <p data-copy="service4Text"></p>
+            <div class="service-value">Professional corporate image and stronger business presentation quality.</div>
+            <a href="#lead-form" class="card-link"><span data-copy="learnMore">Pelajari Layanan</span><i data-lucide="arrow-right"></i></a>
+          </article>
+
+          <article class="card reveal">
+            <div class="card-icon"><i data-lucide="monitor-smartphone"></i></div>
+            <h3 data-copy="service5Title"></h3>
+            <p data-copy="service5Text"></p>
+            <div class="service-value">Improved digital presence and stronger business credibility.</div>
+            <a href="#lead-form" class="card-link"><span data-copy="learnMore">Pelajari Layanan</span><i data-lucide="arrow-right"></i></a>
+          </article>
+
+          <article class="card reveal">
+            <div class="card-icon"><i data-lucide="network"></i></div>
+            <h3 data-copy="service6Title"></h3>
+            <p data-copy="service6Text"></p>
+            <div class="service-value">End-to-end support for modern business foundation.</div>
+            <a href="#lead-form" class="card-link"><span data-copy="learnMore">Pelajari Layanan</span><i data-lucide="arrow-right"></i></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PACKAGES -->
+    <section id="packages">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <p class="section-kicker" data-copy="packageKicker">Service Packages</p>
+            <h2 data-copy="packageTitle">Pilih dukungan sesuai kebutuhan bisnis Anda.</h2>
+          </div>
+          <p class="section-desc" data-copy="packageDesc">
+            Paket dapat disesuaikan berdasarkan kebutuhan, kelengkapan dokumen, serta ruang lingkup pekerjaan.
+          </p>
+        </div>
+
+        <div class="grid grid-3">
+          <article class="card package-card reveal">
+            <span class="package-badge"><i data-lucide="circle-dot"></i> Basic</span>
+            <h3>Basic Package</h3>
+            <div class="package-price" data-copy="price1">Mulai dari Konsultasi</div>
+            <p data-copy="package1Text"></p>
+            <ul class="package-list">
+              <li>Initial consultation</li>
+              <li>Basic business data review</li>
+              <li>Basic legal document guidance</li>
+              <li>Basic administrative support</li>
+              <li>Document checklist</li>
+            </ul>
+          </article>
+
+          <article class="card package-card package-featured reveal">
+            <span class="package-badge"><i data-lucide="badge-check"></i> Recommended</span>
+            <h3>Advanced Package</h3>
+            <div class="package-price" data-copy="price2">Hubungi untuk Harga</div>
+            <p data-copy="package2Text"></p>
+            <ul class="package-list">
+              <li>Business legalization support</li>
+              <li>OSS RBA assistance</li>
+              <li>AHU / NIB / NPWP / Coretax support</li>
+              <li>Business documentation support</li>
+              <li>Digital business profile setup</li>
+            </ul>
+          </article>
+
+          <article class="card package-card reveal">
+            <span class="package-badge"><i data-lucide="settings-2"></i> Customizable</span>
+            <h3>Custom Business Support</h3>
+            <div class="package-price" data-copy="price3">Penawaran Custom Tersedia</div>
+            <p data-copy="package3Text"></p>
+            <ul class="package-list">
+              <li>Custom business consulting</li>
+              <li>Corporate documentation</li>
+              <li>Company profile development</li>
+              <li>Website / landing page development</li>
+              <li>End-to-end business support</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROCESS -->
+    <section id="process">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <p class="section-kicker" data-copy="processKicker">Workflow</p>
+            <h2 data-copy="processTitle">Proses kerja terstruktur dari konsultasi hingga delivery.</h2>
+          </div>
+          <p class="section-desc" data-copy="processDesc">
+            Setiap proses dijalankan secara rapi, terdokumentasi, dan disesuaikan dengan kebutuhan layanan.
+          </p>
+        </div>
+
+        <div class="timeline reveal">
+          <div class="step"><div class="step-number">01</div><h3 data-copy="step1"></h3></div>
+          <div class="step"><div class="step-number">02</div><h3 data-copy="step2"></h3></div>
+          <div class="step"><div class="step-number">03</div><h3 data-copy="step3"></h3></div>
+          <div class="step"><div class="step-number">04</div><h3 data-copy="step4"></h3></div>
+          <div class="step"><div class="step-number">05</div><h3 data-copy="step5"></h3></div>
+          <div class="step"><div class="step-number">06</div><h3 data-copy="step6"></h3></div>
+          <div class="step"><div class="step-number">07</div><h3 data-copy="step7"></h3></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PORTFOLIO -->
+    <section id="portfolio">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <p class="section-kicker" data-copy="portfolioKicker">Portfolio</p>
+            <h2 data-copy="portfolioTitle">Contoh pekerjaan dan output layanan.</h2>
+          </div>
+          <p class="section-desc" data-copy="portfolioDesc">
+            Area ini dapat diisi dengan contoh dokumen, preview company profile, proposal, website, atau dokumentasi layanan.
+          </p>
+        </div>
+
+        <div class="filter-row reveal">
+          <button class="filter-btn active" data-filter="all" data-copy="filterAll">Semua</button>
+          <button class="filter-btn" data-filter="legalitas">Legalitas</button>
+          <button class="filter-btn" data-filter="company">Company Profile</button>
+          <button class="filter-btn" data-filter="proposal">Proposal</button>
+          <button class="filter-btn" data-filter="website">Website</button>
+          <button class="filter-btn" data-filter="administrasi">Administrasi</button>
+        </div>
+
+        <div class="grid grid-3">
+          <article class="card portfolio-card reveal" data-category="legalitas">
+            <div class="asset-slot">
+              <div>
+                <strong>Business Legalization Preview</strong>
+                <span>assets/img/portfolio-legalitas.jpg</span>
+              </div>
+            </div>
+            <span class="portfolio-tag">Legalitas Usaha</span>
+            <h3>Business Legalization Project</h3>
+            <p>Output: AHU, NIB, NPWP, OSS Support.</p>
+            <a href="#contact" class="card-link"><span data-copy="viewDetail">Lihat Detail</span><i data-lucide="arrow-right"></i></a>
+          </article>
+
+          <article class="card portfolio-card reveal" data-category="company">
+            <div class="asset-slot">
+              <div>
+                <strong>Company Profile Preview</strong>
+                <span>assets/img/portfolio-company-profile.jpg</span>
+              </div>
+            </div>
+            <span class="portfolio-tag">Company Profile</span>
+            <h3>Corporate Company Profile</h3>
+            <p>Output: Professional business profile document.</p>
+            <a href="#contact" class="card-link"><span data-copy="viewDetail">Lihat Detail</span><i data-lucide="arrow-right"></i></a>
+          </article>
+
+          <article class="card portfolio-card reveal" data-category="proposal">
+            <div class="asset-slot">
+              <div>
+                <strong>Proposal Preview</strong>
+                <span>assets/img/portfolio-proposal.jpg</span>
+              </div>
+            </div>
+            <span class="portfolio-tag">Proposal Bisnis</span>
+            <h3>Business Proposal Design</h3>
+            <p>Output: Sponsor proposal / investor proposal.</p>
+            <a href="#contact" class="card-link"><span data-copy="viewDetail">Lihat Detail</span><i data-lucide="arrow-right"></i></a>
+          </article>
+
+          <article class="card portfolio-card reveal" data-category="website">
+            <div class="asset-slot">
+              <div>
+                <strong>Website Preview</strong>
+                <span>assets/img/portfolio-website.jpg</span>
+              </div>
+            </div>
+            <span class="portfolio-tag">Website</span>
+            <h3>Landing Page Development</h3>
+            <p>Output: Responsive company profile website.</p>
+            <a href="#contact" class="card-link"><span data-copy="viewDetail">Lihat Detail</span><i data-lucide="arrow-right"></i></a>
+          </article>
+
+          <article class="card portfolio-card reveal" data-category="administrasi">
+            <div class="asset-slot">
+              <div>
+                <strong>Administration Preview</strong>
+                <span>assets/img/portfolio-administration.jpg</span>
+              </div>
+            </div>
+            <span class="portfolio-tag">Administrasi</span>
+            <h3>Administrative Database Setup</h3>
+            <p>Output: Structured database and document archive.</p>
+            <a href="#contact" class="card-link"><span data-copy="viewDetail">Lihat Detail</span><i data-lucide="arrow-right"></i></a>
+          </article>
+
+          <article class="card portfolio-card reveal" data-category="company">
+            <div class="asset-slot">
+              <div>
+                <strong>Digital Documentation Preview</strong>
+                <span>assets/img/portfolio-digital-documentation.jpg</span>
+              </div>
+            </div>
+            <span class="portfolio-tag">Digital Documentation</span>
+            <h3>Digital Documentation System</h3>
+            <p>Output: Organized business documentation support.</p>
+            <a href="#contact" class="card-link"><span data-copy="viewDetail">Lihat Detail</span><i data-lucide="arrow-right"></i></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHY US -->
+    <section id="why">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <p class="section-kicker" data-copy="whyKicker">Why Choose Us</p>
+            <h2 data-copy="whyTitle">Keunggulan PT. ACP Business Support.</h2>
+          </div>
+          <p class="section-desc" data-copy="whyDesc">
+            Kami mengutamakan proses yang profesional, terstruktur, aman, dan relevan dengan kebutuhan bisnis modern.
+          </p>
+        </div>
+
+        <div class="grid grid-4">
+          <article class="card reveal"><div class="card-icon"><i data-lucide="users"></i></div><h3>Professional Team</h3><p data-copy="why1"></p></article>
+          <article class="card reveal"><div class="card-icon"><i data-lucide="timer"></i></div><h3>Efficient Process</h3><p data-copy="why2"></p></article>
+          <article class="card reveal"><div class="card-icon"><i data-lucide="handshake"></i></div><h3>Trusted Partnership</h3><p data-copy="why3"></p></article>
+          <article class="card reveal"><div class="card-icon"><i data-lucide="cpu"></i></div><h3>Technology Driven</h3><p data-copy="why4"></p></article>
+          <article class="card reveal"><div class="card-icon"><i data-lucide="shield-check"></i></div><h3>Confidential & Secure</h3><p data-copy="why5"></p></article>
+          <article class="card reveal"><div class="card-icon"><i data-lucide="message-square-reply"></i></div><h3>Fast Response</h3><p data-copy="why6"></p></article>
+          <article class="card reveal"><div class="card-icon"><i data-lucide="target"></i></div><h3>Strategic Business Support</h3><p data-copy="why7"></p></article>
+          <article class="card reveal"><div class="card-icon"><i data-lucide="workflow"></i></div><h3>End-to-End Service</h3><p data-copy="why8"></p></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- VALUES -->
+    <section id="values">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <p class="section-kicker" data-copy="valuesKicker">Core Values</p>
+            <h2 data-copy="valuesTitle">Nilai perusahaan yang menjadi dasar layanan.</h2>
+          </div>
+          <p class="section-desc" data-copy="valuesDesc">
+            Prinsip kerja kami berfokus pada integritas, profesionalisme, inovasi, komitmen, keunggulan, keandalan, dan kolaborasi.
+          </p>
+        </div>
+
+        <div class="grid grid-4">
+          <article class="card reveal"><div class="card-icon"><i data-lucide="scale"></i></div><h3>Integrity</h3><p data-copy="val1"></p></article>
+          <article class="card reveal"><div class="card-icon"><i data-lucide="badge-check"></i></div><h3>Professionalism</h3><p data-copy="val2"></p></article>
+          <article class="card reveal"><div class="card-icon"><i data-lucide="lightbulb"></i></div><h3>Innovation</h3><p data-copy="val3"></p></article>
+          <article class="card reveal"><div class="card-icon"><i data-lucide="bookmark-check"></i></div><h3>Commitment</h3><p data-copy="val4"></p></article>
+          <article class="card reveal"><div class="card-icon"><i data-lucide="award"></i></div><h3>Excellence</h3><p data-copy="val5"></p></article>
+          <article class="card reveal"><div class="card-icon"><i data-lucide="shield"></i></div><h3>Reliability</h3><p data-copy="val6"></p></article>
+          <article class="card reveal"><div class="card-icon"><i data-lucide="network"></i></div><h3>Collaboration</h3><p data-copy="val7"></p></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- STATS -->
+    <section id="stats">
+      <div class="container">
+        <div class="stats-grid">
+          <div class="card stat-card reveal"><strong><span class="counter" data-target="3">0</span></strong><span data-copy="stat1">Estimasi Hari Kerja</span></div>
+          <div class="card stat-card reveal"><strong><span class="counter" data-target="100">0</span>%</strong><span data-copy="stat2">Dokumentasi Terstruktur</span></div>
+          <div class="card stat-card reveal"><strong><span class="counter" data-target="5">0</span>+</strong><span data-copy="stat3">Layanan Business Support</span></div>
+          <div class="card stat-card reveal"><strong>Remote</strong><span data-copy="stat4">Layanan Online Tersedia</span></div>
+          <div class="card stat-card reveal"><strong>GMT+7</strong><span data-copy="stat5">Area Operasional Jakarta</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CHECKLIST -->
+    <section id="checklist">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <p class="section-kicker" data-copy="checkKicker">Document Checklist</p>
+            <h2 data-copy="checkTitle">Dokumen umum yang biasanya dibutuhkan.</h2>
+          </div>
+          <p class="section-desc" data-copy="checkDesc">
+            Kebutuhan dokumen dapat berbeda sesuai jenis layanan, bentuk usaha, dan sistem yang digunakan.
+          </p>
+        </div>
+
+        <div class="panel profile-copy reveal">
+          <div class="checklist">
+            <div class="check-item"><i data-lucide="check"></i> KTP</div>
+            <div class="check-item"><i data-lucide="check"></i> NPWP Pribadi</div>
+            <div class="check-item"><i data-lucide="check"></i> Alamat Usaha</div>
+            <div class="check-item"><i data-lucide="check"></i> Nama Perusahaan</div>
+            <div class="check-item"><i data-lucide="check"></i> Bidang Usaha / KBLI</div>
+            <div class="check-item"><i data-lucide="check"></i> Email Aktif</div>
+            <div class="check-item"><i data-lucide="check"></i> Nomor HP Aktif</div>
+            <div class="check-item"><i data-lucide="check"></i> Data Pendukung Usaha</div>
+            <div class="check-item"><i data-lucide="check"></i> Dokumen Legalitas Sebelumnya</div>
+            <div class="check-item"><i data-lucide="check"></i> Informasi Kegiatan Usaha</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <p class="section-kicker" data-copy="faqKicker">FAQ</p>
+            <h2 data-copy="faqTitle">Pertanyaan yang sering diajukan.</h2>
+          </div>
+          <p class="section-desc" data-copy="faqDesc">
+            Informasi singkat mengenai layanan dan cara kerja PT. ACP Business Support.
+          </p>
+        </div>
+
+        <div class="faq-list">
+          <article class="card faq-item reveal">
+            <button class="faq-question" type="button"><span data-copy="faqQ1"></span><span class="faq-icon"><i data-lucide="plus"></i></span></button>
+            <div class="faq-answer"><p data-copy="faqA1"></p></div>
+          </article>
+
+          <article class="card faq-item reveal">
+            <button class="faq-question" type="button"><span data-copy="faqQ2"></span><span class="faq-icon"><i data-lucide="plus"></i></span></button>
+            <div class="faq-answer"><p data-copy="faqA2"></p></div>
+          </article>
+
+          <article class="card faq-item reveal">
+            <button class="faq-question" type="button"><span data-copy="faqQ3"></span><span class="faq-icon"><i data-lucide="plus"></i></span></button>
+            <div class="faq-answer"><p data-copy="faqA3"></p></div>
+          </article>
+
+          <article class="card faq-item reveal">
+            <button class="faq-question" type="button"><span data-copy="faqQ4"></span><span class="faq-icon"><i data-lucide="plus"></i></span></button>
+            <div class="faq-answer"><p data-copy="faqA4"></p></div>
+          </article>
+
+          <article class="card faq-item reveal">
+            <button class="faq-question" type="button"><span data-copy="faqQ5"></span><span class="faq-icon"><i data-lucide="plus"></i></span></button>
+            <div class="faq-answer"><p data-copy="faqA5"></p></div>
+          </article>
+
+          <article class="card faq-item reveal">
+            <button class="faq-question" type="button"><span data-copy="faqQ6"></span><span class="faq-icon"><i data-lucide="plus"></i></span></button>
+            <div class="faq-answer"><p data-copy="faqA6"></p></div>
+          </article>
+
+          <article class="card faq-item reveal">
+            <button class="faq-question" type="button"><span data-copy="faqQ7"></span><span class="faq-icon"><i data-lucide="plus"></i></span></button>
+            <div class="faq-answer"><p data-copy="faqA7"></p></div>
+          </article>
+
+          <article class="card faq-item reveal">
+            <button class="faq-question" type="button"><span data-copy="faqQ8"></span><span class="faq-icon"><i data-lucide="plus"></i></span></button>
+            <div class="faq-answer"><p data-copy="faqA8"></p></div>
+          </article>
+
+          <article class="card faq-item reveal">
+            <button class="faq-question" type="button"><span data-copy="faqQ9"></span><span class="faq-icon"><i data-lucide="plus"></i></span></button>
+            <div class="faq-answer"><p data-copy="faqA9"></p></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+      <div class="container contact-layout">
+        <div class="contact-card reveal">
+          <p class="section-kicker" data-copy="contactKicker">Contact</p>
+          <h2 data-copy="contactTitle">Bangun Fondasi Bisnis Anda Secara Profesional Bersama PT. ACP Business Support.</h2>
+          <p data-copy="contactDesc">
+            Hubungi kami untuk konsultasi layanan legalitas usaha, administrasi bisnis, dokumentasi perusahaan, digital support, dan website development.
+          </p>
+
+          <div class="contact-list">
+            <div class="contact-item">
+              <span class="contact-icon"><i data-lucide="map-pin"></i></span>
+              <div><span>Location</span><strong>Jakarta Selatan, Indonesia</strong></div>
+            </div>
+
+            <div class="contact-item">
+              <span class="contact-icon"><i data-lucide="mail"></i></span>
+              <div><span>Email</span><a href="mailto:acpbusinesssupport@gmail.com">acpbusinesssupport@gmail.com</a></div>
+            </div>
+
+            <div class="contact-item">
+              <span class="contact-icon"><i data-lucide="phone"></i></span>
+              <div><span>WhatsApp</span><a href="https://wa.me/6285715489818" target="_blank" rel="noopener">+62 857-1548-9818</a></div>
+            </div>
+
+            <div class="contact-item">
+              <span class="contact-icon"><i data-lucide="clock"></i></span>
+              <div><span>Operational Hours</span><strong>Monday – Friday, 09.00 AM – 05.00 PM (GMT+7)</strong></div>
+            </div>
+          </div>
+
+          <div class="social-row">
+  <a class="social-btn" href="https://wa.me/6285715489818" target="_blank" rel="noopener" aria-label="WhatsApp">
+    <i data-lucide="message-circle"></i>
+  </a>
+
+  <a class="social-btn" href="mailto:acpbusinesssupport@gmail.com" aria-label="Email">
+    <i data-lucide="mail"></i>
+  </a>
+
+  <!-- SOCIAL PLACEHOLDER: Replace with ACP LinkedIn URL -->
+  <a class="social-btn" href="https://linkedin.com/company/replace-this-link" target="_blank" rel="noopener" aria-label="LinkedIn">
+    <svg class="brand-social-icon" viewBox="0 0 24 24" aria-hidden="true">
+      <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z"></path>
+      <rect x="2" y="9" width="4" height="12"></rect>
+      <circle cx="4" cy="4" r="2"></circle>
+    </svg>
+  </a>
+
+  <!-- SOCIAL PLACEHOLDER: Replace with ACP Instagram URL -->
+  <a class="social-btn" href="https://instagram.com/replace-this-link" target="_blank" rel="noopener" aria-label="Instagram">
+    <svg class="brand-social-icon" viewBox="0 0 24 24" aria-hidden="true">
+      <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+      <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+      <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+    </svg>
+  </a>
+
+  <!-- SOCIAL PLACEHOLDER: Replace with ACP TikTok URL -->
+  <a class="social-btn" href="https://tiktok.com/@replace-this-link" target="_blank" rel="noopener" aria-label="TikTok">
+    <i data-lucide="music-2"></i>
+  </a>
+</div>
+        </div>
+
+        <div class="contact-card reveal" id="lead-form">
+          <p class="section-kicker" data-copy="formKicker">Consultation Form</p>
+          <h2 data-copy="formTitle">Kirim kebutuhan Anda via WhatsApp.</h2>
+
+          <form id="whatsappForm">
+            <div class="form-grid">
+              <div class="form-group">
+                <label for="name" data-copy="labelName">Nama</label>
+                <input id="name" type="text" placeholder="Nama Anda" required />
+              </div>
+
+              <div class="form-group">
+                <label for="company" data-copy="labelCompany">Nama Perusahaan</label>
+                <input id="company" type="text" placeholder="Nama Perusahaan" />
+              </div>
+
+              <div class="form-group">
+                <label for="email" data-copy="labelEmail">Email</label>
+                <input id="email" type="email" placeholder="email@example.com" />
+              </div>
+
+              <div class="form-group">
+                <label for="phone" data-copy="labelPhone">Nomor WhatsApp</label>
+                <input id="phone" type="text" placeholder="+62..." />
+              </div>
+
+              <div class="form-group full">
+                <label for="service" data-copy="labelService">Layanan yang Dibutuhkan</label>
+                <select id="service">
+                  <option>Management Consulting</option>
+                  <option>Business Legalization & Licensing</option>
+                  <option>Business Administration Support</option>
+                  <option>Digital Support & Branding</option>
+                  <option>Website & Landing Page Development</option>
+                  <option>Custom Business Support</option>
+                </select>
+              </div>
+
+              <div class="form-group full">
+                <label for="message" data-copy="labelMessage">Pesan</label>
+                <textarea id="message" placeholder="Jelaskan kebutuhan Anda secara singkat..."></textarea>
+              </div>
+
+              <div class="form-group full">
+                <button class="btn btn-primary" type="submit">
+                  <i data-lucide="send"></i>
+                  <span data-copy="formButton">Kirim via WhatsApp</span>
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- CLOSING -->
+    <section id="closing">
+      <div class="container">
+        <div class="panel closing-card reveal">
+          <p class="section-kicker" data-copy="closingKicker">Closing Statement</p>
+          <h2 data-copy="closingTitle">Strategic Solutions for Sustainable Business Growth.</h2>
+          <p data-copy="closingText">
+            PT. ACP Business Support berkomitmen menjadi mitra strategis terpercaya dalam mendukung kebutuhan bisnis modern melalui layanan konsultasi, legalitas, administrasi, dan solusi digital yang profesional serta berorientasi pada kualitas.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <h3>PT. ACP Business Support</h3>
+        <p data-copy="footerDesc">Mitra profesional dalam konsultasi manajemen, legalitas usaha, administrasi bisnis, dan digital support modern.</p>
+        <p><strong>Strategic Solutions for Sustainable Business Growth.</strong></p>
+      </div>
+
+      <div>
+        <h3 data-copy="footerNav">Navigation</h3>
+        <a href="#home" data-copy="navHome">Home</a>
+        <a href="#about" data-copy="navAbout">About</a>
+        <a href="#services" data-copy="navServices">Services</a>
+        <a href="#portfolio" data-copy="navPortfolio">Portfolio</a>
+        <a href="#contact" data-copy="navContact">Contact</a>
+      </div>
+
+      <div>
+        <h3 data-copy="footerServices">Services</h3>
+        <a href="#services">Management Consulting</a>
+        <a href="#services">Business Legalization</a>
+        <a href="#services">Administration Support</a>
+        <a href="#services">Digital Branding</a>
+        <a href="#services">Website Development</a>
+      </div>
+
+      <div>
+        <h3 data-copy="footerContact">Contact</h3>
+        <p>Jakarta Selatan, Indonesia</p>
+        <p>acpbusinesssupport@gmail.com</p>
+        <p>+62 857-1548-9818</p>
+        <p>Monday – Friday, 09.00 AM – 05.00 PM</p>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <span>© 2026 PT. ACP Business Support. All Rights Reserved.</span>
+      <span>Empowering Modern Business Through Professional Support.</span>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/6285715489818" target="_blank" rel="noopener" class="floating-whatsapp" aria-label="WhatsApp">
+    <i data-lucide="message-circle"></i>
+  </a>
+
+  <button class="back-to-top" id="backToTop" type="button" aria-label="Back to top">
+    <i data-lucide="arrow-up"></i>
+  </button>
+
+  <script>
+    const acp = {
+      id: {
+        brandRole: "Strategic Business Support",
+        navHome: "Home",
+        navAbout: "About",
+        navServices: "Services",
+        navProcess: "Process",
+        navPortfolio: "Portfolio",
+        navWhy: "Why Us",
+        navFaq: "FAQ",
+        navContact: "Contact",
+
+        heroEyebrow: "Strategic Business & Management Consulting Services",
+        heroTitle: "Solusi Strategis untuk Konsultasi Manajemen, Legalitas Usaha, Administrasi Bisnis, dan Digital Support Modern",
+        heroRole: "Strategic Solutions for Sustainable Business Growth.",
+        heroLead: "Mitra profesional dalam solusi konsultasi manajemen, legalitas usaha, administrasi bisnis, dan pengembangan digital modern untuk mendukung pertumbuhan bisnis yang efektif, terpercaya, dan berkelanjutan.",
+        heroBtn1: "Konsultasi Sekarang",
+        heroBtn2: "Lihat Layanan",
+        heroBtn3: "Hubungi via WhatsApp",
+        heroAssetTitle: "ACP Business Support Visual",
+        heroAssetDesc: "Ganti area ini dengan logo, ilustrasi bisnis, atau dokumentasi profesional.",
+        mini1: "Estimasi hari kerja untuk proses tertentu",
+        mini2: "Lingkup layanan business support",
+        mini3: "Layanan untuk area Indonesia",
+
+        aboutKicker: "About Us",
+        aboutTitle: "Mitra profesional untuk fondasi bisnis yang lebih kuat.",
+        aboutDesc: "PT. ACP Business Support hadir sebagai mitra strategis bagi pelaku usaha, profesional, dan perusahaan berkembang di Indonesia.",
+        aboutP1: "PT. ACP Business Support merupakan perusahaan jasa konsultasi manajemen yang berfokus pada penyediaan solusi bisnis profesional, legalitas usaha, administrasi perusahaan, serta dukungan digital modern bagi pelaku usaha, profesional, dan perusahaan berkembang di Indonesia.",
+        aboutP2: "Kami hadir sebagai mitra strategis yang membantu proses pengembangan bisnis secara efektif, terstruktur, dan efisien melalui layanan yang terintegrasi. Dengan pendekatan profesional, adaptif, dan berbasis solusi, PT. ACP Business Support berkomitmen memberikan pelayanan yang cepat, terpercaya, serta sesuai dengan kebutuhan bisnis modern.",
+        aboutP3: "Didukung oleh pemahaman terhadap sistem administrasi, legalitas, teknologi digital, dan operasional bisnis, kami membantu klien dalam membangun fondasi usaha yang kuat dan berkelanjutan.",
+        high1: "Professional",
+        high2: "Accurate",
+        high3: "Structured",
+        high4: "Fast Execution",
+        high5: "Client-Oriented",
+        high6: "Documentation-Ready",
+        metric1: "Konsultasi manajemen dan pendampingan bisnis profesional.",
+        metric2: "OSS RBA, AHU, NIB, NPWP Badan, Coretax, dan KBLI.",
+        metric3: "Company profile, presentasi, branding, portfolio, dan landing page.",
+
+        visionKicker: "Vision & Mission",
+        visionTitle: "Arah kerja yang profesional, modern, dan berkelanjutan.",
+        visionDesc: "Kami membangun layanan berdasarkan integritas, kualitas, adaptasi teknologi, dan kebutuhan bisnis modern.",
+        visionCardTitle: "Visi",
+        missionCardTitle: "Misi",
+        visionText: "Menjadi perusahaan konsultasi bisnis dan pendukung operasional terpercaya di Indonesia yang mampu menghadirkan solusi profesional, modern, dan berorientasi pada pertumbuhan bisnis berkelanjutan.",
+        mission1: "Memberikan layanan konsultasi dan administrasi bisnis secara profesional dan terpercaya.",
+        mission2: "Mendukung pelaku usaha dalam proses legalitas dan pengembangan bisnis modern.",
+        mission3: "Menghadirkan solusi digital dan administratif yang efisien serta terintegrasi.",
+        mission4: "Membangun hubungan kerja sama jangka panjang dengan klien berdasarkan integritas dan kualitas layanan.",
+        mission5: "Beradaptasi dengan perkembangan teknologi dan kebutuhan bisnis masa kini.",
+
+        servicesKicker: "Services",
+        servicesTitle: "Layanan terintegrasi untuk kebutuhan bisnis modern.",
+        servicesDesc: "Dari konsultasi, legalitas, administrasi, hingga pengembangan digital bisnis.",
+        service1Title: "Konsultasi Manajemen",
+        service1Text: "Memberikan konsultasi bisnis profesional untuk membantu perusahaan meningkatkan efektivitas operasional, administrasi, dan pengembangan usaha.",
+        service2Title: "Legalitas & Perizinan Usaha",
+        service2Text: "Melayani pengurusan legalitas usaha seperti pendirian PT Perorangan, OSS RBA, AHU, NPWP Badan, Coretax, penyesuaian KBLI, hingga penapisan AMDAL.",
+        service3Title: "Administrasi Bisnis",
+        service3Text: "Membantu kebutuhan administratif perusahaan secara profesional dan sistematis untuk mendukung aktivitas bisnis yang lebih tertata.",
+        service4Title: "Digital Support & Branding",
+        service4Text: "Menyediakan layanan pembuatan company profile, desain presentasi profesional, CV ATS, portfolio digital, serta kebutuhan branding bisnis modern.",
+        service5Title: "Website & Landing Page Development",
+        service5Text: "Melayani pembuatan website company profile dan landing page modern dengan tampilan profesional dan responsif.",
+        service6Title: "Integrated Business Support",
+        service6Text: "Pendampingan end-to-end untuk kebutuhan konsultasi, legalitas, dokumentasi, administrasi, dan digitalisasi bisnis.",
+        learnMore: "Pelajari Layanan",
+
+        packageKicker: "Service Packages",
+        packageTitle: "Pilih dukungan sesuai kebutuhan bisnis Anda.",
+        packageDesc: "Paket dapat disesuaikan berdasarkan kebutuhan, kelengkapan dokumen, serta ruang lingkup pekerjaan.",
+        price1: "Mulai dari Konsultasi",
+        price2: "Hubungi untuk Harga",
+        price3: "Penawaran Custom Tersedia",
+        package1Text: "Cocok untuk kebutuhan awal legalitas dan administrasi dasar.",
+        package2Text: "Cocok untuk pelaku usaha yang membutuhkan pendampingan lebih lengkap.",
+        package3Text: "Cocok untuk perusahaan yang membutuhkan layanan khusus.",
+
+        processKicker: "Workflow",
+        processTitle: "Proses kerja terstruktur dari konsultasi hingga delivery.",
+        processDesc: "Setiap proses dijalankan secara rapi, terdokumentasi, dan disesuaikan dengan kebutuhan layanan.",
+        step1: "Konsultasi Awal",
+        step2: "Pengumpulan Data",
+        step3: "Review Dokumen",
+        step4: "Registrasi / Pengajuan",
+        step5: "Verifikasi",
+        step6: "Penyerahan Dokumen Final",
+        step7: "After-Service Support",
+
+        portfolioKicker: "Portfolio",
+        portfolioTitle: "Contoh pekerjaan dan output layanan.",
+        portfolioDesc: "Area ini dapat diisi dengan contoh dokumen, preview company profile, proposal, website, atau dokumentasi layanan.",
+        filterAll: "Semua",
+        viewDetail: "Lihat Detail",
+
+        whyKicker: "Why Choose Us",
+        whyTitle: "Keunggulan PT. ACP Business Support.",
+        whyDesc: "Kami mengutamakan proses yang profesional, terstruktur, aman, dan relevan dengan kebutuhan bisnis modern.",
+        why1: "Tim profesional dengan pendekatan kerja yang detail, sistematis, dan berorientasi solusi.",
+        why2: "Proses kerja cepat, efektif, dan terstruktur untuk mendukung kebutuhan bisnis klien.",
+        why3: "Membangun hubungan kerja sama yang profesional dan berkelanjutan.",
+        why4: "Mengintegrasikan teknologi modern dalam proses administrasi dan layanan bisnis.",
+        why5: "Menjaga kerahasiaan data dan informasi klien dengan standar profesional.",
+        why6: "Respons cepat dan komunikasi yang responsif terhadap kebutuhan klien.",
+        why7: "Memberikan dukungan bisnis yang relevan, adaptif, dan bernilai strategis.",
+        why8: "Layanan terintegrasi mulai dari konsultasi, legalitas, administrasi, hingga pengembangan digital bisnis.",
+
+        valuesKicker: "Core Values",
+        valuesTitle: "Nilai perusahaan yang menjadi dasar layanan.",
+        valuesDesc: "Prinsip kerja kami berfokus pada integritas, profesionalisme, inovasi, komitmen, keunggulan, keandalan, dan kolaborasi.",
+        val1: "Menjunjung tinggi kejujuran, profesionalisme, dan tanggung jawab dalam setiap layanan.",
+        val2: "Mengutamakan kualitas kerja, ketepatan proses, dan standar layanan profesional.",
+        val3: "Beradaptasi dengan perkembangan teknologi dan kebutuhan bisnis modern.",
+        val4: "Berkomitmen memberikan pelayanan terbaik secara konsisten dan berkelanjutan.",
+        val5: "Menghadirkan hasil kerja berkualitas tinggi dengan perhatian terhadap detail.",
+        val6: "Menjadi mitra bisnis yang terpercaya dan dapat diandalkan.",
+        val7: "Membangun hubungan kerja sama yang positif dan produktif bersama klien.",
+
+        stat1: "Estimasi Hari Kerja",
+        stat2: "Dokumentasi Terstruktur",
+        stat3: "Layanan Business Support",
+        stat4: "Layanan Online Tersedia",
+        stat5: "Area Operasional Jakarta",
+
+        checkKicker: "Document Checklist",
+        checkTitle: "Dokumen umum yang biasanya dibutuhkan.",
+        checkDesc: "Kebutuhan dokumen dapat berbeda sesuai jenis layanan, bentuk usaha, dan sistem yang digunakan.",
+
+        faqKicker: "FAQ",
+        faqTitle: "Pertanyaan yang sering diajukan.",
+        faqDesc: "Informasi singkat mengenai layanan dan cara kerja PT. ACP Business Support.",
+        faqQ1: "Apa itu PT. ACP Business Support?",
+        faqA1: "PT. ACP Business Support adalah perusahaan jasa konsultasi manajemen yang menyediakan layanan legalitas usaha, administrasi bisnis, dokumentasi perusahaan, digital branding, dan website development.",
+        faqQ2: "Layanan apa saja yang tersedia?",
+        faqA2: "Layanan meliputi konsultasi manajemen, legalitas dan perizinan usaha, administrasi bisnis, company profile, proposal bisnis, digital support, serta website landing page.",
+        faqQ3: "Apakah bisa konsultasi terlebih dahulu?",
+        faqA3: "Bisa. Calon klien dapat berkonsultasi terlebih dahulu untuk menentukan kebutuhan, ruang lingkup pekerjaan, dan estimasi proses.",
+        faqQ4: "Apakah layanan bisa dilakukan secara online?",
+        faqA4: "Ya. Layanan dapat dilakukan secara remote selama data dan dokumen yang dibutuhkan tersedia dengan lengkap.",
+        faqQ5: "Berapa lama proses pendirian Perseroan Perorangan?",
+        faqA5: "Estimasi umum dapat berkisar 1–3 hari kerja, tergantung kelengkapan data, kondisi sistem, dan kebutuhan tambahan klien.",
+        faqQ6: "Apa saja dokumen yang dibutuhkan?",
+        faqA6: "Dokumen umum meliputi KTP, NPWP, alamat usaha, email aktif, nomor HP aktif, bidang usaha atau KBLI, dan data pendukung lainnya sesuai layanan.",
+        faqQ7: "Apakah PT. ACP Business Support membantu OSS dan Coretax?",
+        faqA7: "Ya. PT. ACP Business Support dapat membantu pendampingan pengisian OSS RBA, NIB, NPWP Badan, dan Coretax sesuai kebutuhan layanan.",
+        faqQ8: "Apakah data klien dijaga kerahasiaannya?",
+        faqA8: "Ya. Kerahasiaan data dan informasi klien dijaga dengan standar kerja profesional.",
+        faqQ9: "Bagaimana cara menghubungi PT. ACP Business Support?",
+        faqA9: "Anda dapat menghubungi melalui WhatsApp, email, atau form konsultasi yang tersedia di website ini.",
+
+        contactKicker: "Contact",
+        contactTitle: "Bangun Fondasi Bisnis Anda Secara Profesional Bersama PT. ACP Business Support.",
+        contactDesc: "Hubungi kami untuk konsultasi layanan legalitas usaha, administrasi bisnis, dokumentasi perusahaan, digital support, dan website development.",
+        formKicker: "Consultation Form",
+        formTitle: "Kirim kebutuhan Anda via WhatsApp.",
+        labelName: "Nama",
+        labelCompany: "Nama Perusahaan",
+        labelEmail: "Email",
+        labelPhone: "Nomor WhatsApp",
+        labelService: "Layanan yang Dibutuhkan",
+        labelMessage: "Pesan",
+        formButton: "Kirim via WhatsApp",
+
+        closingKicker: "Closing Statement",
+        closingTitle: "Strategic Solutions for Sustainable Business Growth.",
+        closingText: "PT. ACP Business Support berkomitmen menjadi mitra strategis terpercaya dalam mendukung kebutuhan bisnis modern melalui layanan konsultasi, legalitas, administrasi, dan solusi digital yang profesional serta berorientasi pada kualitas.",
+        footerDesc: "Mitra profesional dalam konsultasi manajemen, legalitas usaha, administrasi bisnis, dan digital support modern.",
+        footerNav: "Navigation",
+        footerServices: "Services",
+        footerContact: "Contact"
+      },
+
+      en: {
+        brandRole: "Strategic Business Support",
+        navHome: "Home",
+        navAbout: "About",
+        navServices: "Services",
+        navProcess: "Process",
+        navPortfolio: "Portfolio",
+        navWhy: "Why Us",
+        navFaq: "FAQ",
+        navContact: "Contact",
+
+        heroEyebrow: "Strategic Business & Management Consulting Services",
+        heroTitle: "Strategic Solutions for Management Consulting, Business Legalization, Corporate Administration, and Modern Digital Support",
+        heroRole: "Strategic Solutions for Sustainable Business Growth.",
+        heroLead: "A professional partner in management consulting, business legalization, administrative solutions, and modern digital development services to support effective, reliable, and sustainable business growth.",
+        heroBtn1: "Start Consultation",
+        heroBtn2: "View Services",
+        heroBtn3: "Contact via WhatsApp",
+        heroAssetTitle: "ACP Business Support Visual",
+        heroAssetDesc: "Replace this area with a logo, business illustration, or professional documentation.",
+        mini1: "Estimated working days for selected processes",
+        mini2: "Business support service scope",
+        mini3: "Services for Indonesia area",
+
+        aboutKicker: "About Us",
+        aboutTitle: "A professional partner for stronger business foundations.",
+        aboutDesc: "PT. ACP Business Support serves as a strategic partner for entrepreneurs, professionals, and growing companies in Indonesia.",
+        aboutP1: "PT. ACP Business Support is a management consulting company focused on delivering professional business solutions, corporate legalization services, administrative support, and modern digital business assistance for entrepreneurs, professionals, and growing companies in Indonesia.",
+        aboutP2: "We serve as a strategic partner in supporting effective, structured, and efficient business development through integrated professional services. With a professional, adaptive, and solution-oriented approach, PT. ACP Business Support is committed to delivering fast, reliable, and modern business support services.",
+        aboutP3: "Supported by expertise in administration systems, business legality, digital technology, and operational management, we help clients build strong and sustainable business foundations.",
+        high1: "Professional",
+        high2: "Accurate",
+        high3: "Structured",
+        high4: "Fast Execution",
+        high5: "Client-Oriented",
+        high6: "Documentation-Ready",
+        metric1: "Management consulting and professional business assistance.",
+        metric2: "OSS RBA, AHU, NIB, corporate tax registration, Coretax, and KBLI.",
+        metric3: "Company profile, presentation, branding, portfolio, and landing page.",
+
+        visionKicker: "Vision & Mission",
+        visionTitle: "Professional, modern, and sustainable direction.",
+        visionDesc: "Our services are built on integrity, quality, technological adaptation, and modern business needs.",
+        visionCardTitle: "Vision",
+        missionCardTitle: "Mission",
+        visionText: "To become a trusted business consulting and operational support company in Indonesia by delivering professional, modern, and sustainable business solutions.",
+        mission1: "Deliver professional and reliable business consulting and administrative services.",
+        mission2: "Support entrepreneurs in business legalization and modern business development processes.",
+        mission3: "Provide efficient and integrated digital and administrative solutions.",
+        mission4: "Build long-term partnerships based on integrity and service excellence.",
+        mission5: "Continuously adapt to technological advancements and modern business demands.",
+
+        servicesKicker: "Services",
+        servicesTitle: "Integrated services for modern business needs.",
+        servicesDesc: "From consulting, legalization, administration, to digital business development.",
+        service1Title: "Management Consulting",
+        service1Text: "Providing professional business consulting services to improve operational efficiency, administrative management, and business development.",
+        service2Title: "Business Legalization & Licensing",
+        service2Text: "Providing business legalization services including Individual Company establishment, OSS RBA registration, AHU processing, corporate tax registration, Coretax administration, KBLI adjustments, and AMDAL screening assistance.",
+        service3Title: "Business Administration Support",
+        service3Text: "Supporting corporate administrative needs professionally and systematically to improve business organization and efficiency.",
+        service4Title: "Digital Support & Branding",
+        service4Text: "Providing company profile development, professional presentation design, ATS-friendly CV creation, digital portfolios, and modern business branding services.",
+        service5Title: "Website & Landing Page Development",
+        service5Text: "Providing modern company profile websites and responsive landing page development services.",
+        service6Title: "Integrated Business Support",
+        service6Text: "End-to-end assistance for consulting, legalization, documentation, administration, and business digitalization needs.",
+        learnMore: "Learn More",
+
+        packageKicker: "Service Packages",
+        packageTitle: "Choose support based on your business needs.",
+        packageDesc: "Packages can be customized based on needs, document completeness, and work scope.",
+        price1: "Starting From Consultation",
+        price2: "Contact for Pricing",
+        price3: "Custom Quotation Available",
+        package1Text: "Suitable for basic legalization and administrative needs.",
+        package2Text: "Suitable for entrepreneurs who need more complete assistance.",
+        package3Text: "Suitable for companies requiring tailored services.",
+
+        processKicker: "Workflow",
+        processTitle: "Structured workflow from consultation to delivery.",
+        processDesc: "Each process is handled systematically, documented properly, and aligned with service needs.",
+        step1: "Initial Consultation",
+        step2: "Data Collection",
+        step3: "Document Review",
+        step4: "Registration / Submission",
+        step5: "Verification",
+        step6: "Final Document Delivery",
+        step7: "After-Service Support",
+
+        portfolioKicker: "Portfolio",
+        portfolioTitle: "Sample projects and service outputs.",
+        portfolioDesc: "This area can be filled with sample documents, company profile previews, proposals, websites, or service documentation.",
+        filterAll: "All",
+        viewDetail: "View Details",
+
+        whyKicker: "Why Choose Us",
+        whyTitle: "The strengths of PT. ACP Business Support.",
+        whyDesc: "We prioritize professional, structured, secure, and relevant processes for modern business needs.",
+        why1: "Professional team with a detailed, systematic, and solution-oriented work approach.",
+        why2: "Fast, effective, and structured workflow to support client business needs.",
+        why3: "Building professional and sustainable partnerships.",
+        why4: "Integrating modern technology into administrative processes and business services.",
+        why5: "Protecting client data and information confidentiality with professional standards.",
+        why6: "Fast response and responsive communication toward client needs.",
+        why7: "Providing relevant, adaptive, and strategically valuable business support.",
+        why8: "Integrated services from consulting, legalization, administration, to digital business development.",
+
+        valuesKicker: "Core Values",
+        valuesTitle: "Company values that form the foundation of our services.",
+        valuesDesc: "Our principles focus on integrity, professionalism, innovation, commitment, excellence, reliability, and collaboration.",
+        val1: "Upholding honesty, professionalism, and responsibility in every service.",
+        val2: "Prioritizing work quality, process accuracy, and professional service standards.",
+        val3: "Adapting to technological advancement and modern business needs.",
+        val4: "Committed to consistently delivering the best service.",
+        val5: "Delivering high-quality results with attention to detail.",
+        val6: "Becoming a trusted and reliable business partner.",
+        val7: "Building positive and productive collaboration with clients.",
+
+        stat1: "Estimated Working Days",
+        stat2: "Structured Documentation",
+        stat3: "Business Support Services",
+        stat4: "Remote Service Available",
+        stat5: "Jakarta Operational Area",
+
+        checkKicker: "Document Checklist",
+        checkTitle: "General documents usually required.",
+        checkDesc: "Document requirements may vary depending on the service type, business structure, and applicable system.",
+
+        faqKicker: "FAQ",
+        faqTitle: "Frequently asked questions.",
+        faqDesc: "Brief information about PT. ACP Business Support services and workflow.",
+        faqQ1: "What is PT. ACP Business Support?",
+        faqA1: "PT. ACP Business Support is a management consulting company providing business legalization, corporate administration, company documentation, digital branding, and website development services.",
+        faqQ2: "What services are available?",
+        faqA2: "Services include management consulting, business legalization and licensing, business administration, company profile, business proposal, digital support, and landing page website.",
+        faqQ3: "Can I consult first?",
+        faqA3: "Yes. Prospective clients can consult first to determine needs, work scope, and process estimation.",
+        faqQ4: "Can services be handled online?",
+        faqA4: "Yes. Services can be handled remotely as long as the required data and documents are complete.",
+        faqQ5: "How long does Individual Company establishment take?",
+        faqA5: "The general estimate may range from 1–3 working days, depending on data completeness, system conditions, and additional client needs.",
+        faqQ6: "What documents are required?",
+        faqA6: "Common documents include ID card, taxpayer number, business address, active email, active phone number, business field or KBLI, and supporting data according to the service.",
+        faqQ7: "Do you assist with OSS and Coretax?",
+        faqA7: "Yes. PT. ACP Business Support can assist with OSS RBA, NIB, corporate tax registration, and Coretax according to service needs.",
+        faqQ8: "Is client data kept confidential?",
+        faqA8: "Yes. Client data and information confidentiality is protected with professional working standards.",
+        faqQ9: "How can I contact PT. ACP Business Support?",
+        faqA9: "You can contact us via WhatsApp, email, or the consultation form available on this website.",
+
+        contactKicker: "Contact",
+        contactTitle: "Let’s Build Your Business Foundation Professionally with PT. ACP Business Support.",
+        contactDesc: "Contact us for business legalization, business administration, company documentation, digital support, and website development consultation.",
+        formKicker: "Consultation Form",
+        formTitle: "Send your needs via WhatsApp.",
+        labelName: "Name",
+        labelCompany: "Company Name",
+        labelEmail: "Email",
+        labelPhone: "WhatsApp Number",
+        labelService: "Service Needed",
+        labelMessage: "Message",
+        formButton: "Send via WhatsApp",
+
+        closingKicker: "Closing Statement",
+        closingTitle: "Strategic Solutions for Sustainable Business Growth.",
+        closingText: "PT. ACP Business Support is committed to becoming a trusted strategic partner in supporting modern business needs through professional consulting, legalization, administrative, and digital business solutions focused on quality and long-term value.",
+        footerDesc: "A professional partner in management consulting, business legalization, business administration, and modern digital support.",
+        footerNav: "Navigation",
+        footerServices: "Services",
+        footerContact: "Contact"
+      }
+    };
+
+    let currentLang = localStorage.getItem("acpLang") || "id";
+    let currentTheme = localStorage.getItem("acpTheme") || "dark";
+
+    const copyNodes = document.querySelectorAll("[data-copy]");
+    const btnID = document.getElementById("btnID");
+    const btnEN = document.getElementById("btnEN");
+    const themeToggle = document.getElementById("themeToggle");
+    const menuToggle = document.getElementById("menuToggle");
+    const navLinks = document.getElementById("navLinks");
+    const siteHeader = document.getElementById("siteHeader");
+    const backToTop = document.getElementById("backToTop");
+
+    function refreshIcons() {
+      if (window.lucide) {
+        lucide.createIcons();
+      }
+    }
+
+    function setLanguage(lang) {
+      currentLang = lang;
+      localStorage.setItem("acpLang", lang);
+      document.documentElement.lang = lang;
+
+      copyNodes.forEach(node => {
+        const key = node.dataset.copy;
+        if (acp[lang][key]) {
+          node.textContent = acp[lang][key];
+        }
+      });
+
+      btnID.classList.toggle("active", lang === "id");
+      btnEN.classList.toggle("active", lang === "en");
+
+      refreshIcons();
+    }
+
+    function setTheme(theme) {
+      currentTheme = theme;
+      localStorage.setItem("acpTheme", theme);
+
+      document.body.classList.toggle("light", theme === "light");
+
+      themeToggle.innerHTML = theme === "light"
+        ? '<i data-lucide="sun"></i>'
+        : '<i data-lucide="moon"></i>';
+
+      refreshIcons();
+    }
+
+    btnID.addEventListener("click", () => setLanguage("id"));
+    btnEN.addEventListener("click", () => setLanguage("en"));
+
+    themeToggle.addEventListener("click", () => {
+      setTheme(currentTheme === "dark" ? "light" : "dark");
+    });
+
+    menuToggle.addEventListener("click", () => {
+      navLinks.classList.toggle("open");
+      menuToggle.innerHTML = navLinks.classList.contains("open")
+        ? '<i data-lucide="x"></i>'
+        : '<i data-lucide="menu"></i>';
+      refreshIcons();
+    });
+
+    document.querySelectorAll(".nav-links a").forEach(link => {
+      link.addEventListener("click", () => {
+        navLinks.classList.remove("open");
+        menuToggle.innerHTML = '<i data-lucide="menu"></i>';
+        refreshIcons();
+      });
+    });
+
+    function setActiveNav() {
+      const sections = document.querySelectorAll("main section[id]");
+      const links = document.querySelectorAll(".nav-links a");
+      let current = "home";
+
+      sections.forEach(section => {
+        if (window.scrollY >= section.offsetTop - 140) {
+          current = section.id;
+        }
+      });
+
+      links.forEach(link => {
+        link.classList.toggle("active", link.getAttribute("href") === "#" + current);
+      });
+    }
+
+    window.addEventListener("scroll", () => {
+      siteHeader.classList.toggle("scrolled", window.scrollY > 40);
+      backToTop.classList.toggle("show", window.scrollY > 520);
+      setActiveNav();
+    });
+
+    backToTop.addEventListener("click", () => {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+
+    const revealObserver = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("visible");
+        }
+      });
+    }, { threshold: 0.12 });
+
+    document.querySelectorAll(".reveal").forEach(el => revealObserver.observe(el));
+
+    document.querySelectorAll(".faq-question").forEach(button => {
+      button.addEventListener("click", () => {
+        const item = button.closest(".faq-item");
+
+        document.querySelectorAll(".faq-item").forEach(faq => {
+          if (faq !== item) faq.classList.remove("active");
+        });
+
+        item.classList.toggle("active");
+      });
+    });
+
+    document.querySelectorAll(".filter-btn").forEach(button => {
+      button.addEventListener("click", () => {
+        const filter = button.dataset.filter;
+
+        document.querySelectorAll(".filter-btn").forEach(btn => btn.classList.remove("active"));
+        button.classList.add("active");
+
+        document.querySelectorAll(".portfolio-card").forEach(card => {
+          const match = filter === "all" || card.dataset.category === filter;
+          card.classList.toggle("hide", !match);
+        });
+      });
+    });
+
+    let countersStarted = false;
+
+    const counterObserver = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting && !countersStarted) {
+          countersStarted = true;
+
+          document.querySelectorAll(".counter").forEach(counter => {
+            const target = Number(counter.dataset.target);
+            let value = 0;
+            const increment = Math.max(1, Math.ceil(target / 48));
+
+            const run = () => {
+              value += increment;
+              if (value >= target) {
+                counter.textContent = target;
+                return;
+              }
+
+              counter.textContent = value;
+              requestAnimationFrame(run);
+            };
+
+            run();
+          });
+        }
+      });
+    }, { threshold: 0.4 });
+
+    const statsSection = document.getElementById("stats");
+    if (statsSection) counterObserver.observe(statsSection);
+
+    document.getElementById("whatsappForm").addEventListener("submit", event => {
+      event.preventDefault();
+
+      const name = document.getElementById("name").value.trim();
+      const company = document.getElementById("company").value.trim();
+      const email = document.getElementById("email").value.trim();
+      const phone = document.getElementById("phone").value.trim();
+      const service = document.getElementById("service").value;
+      const message = document.getElementById("message").value.trim();
+
+      const textId =
+`Halo PT. ACP Business Support,
+
+Saya ingin berkonsultasi mengenai layanan berikut:
+
+Nama: ${name}
+Nama Perusahaan: ${company}
+Email: ${email}
+Nomor WhatsApp: ${phone}
+Layanan yang Dibutuhkan: ${service}
+Pesan: ${message}
+
+Terima kasih.`;
+
+      const textEn =
+`Hello PT. ACP Business Support,
+
+I would like to consult regarding the following service:
+
+Name: ${name}
+Company Name: ${company}
+Email: ${email}
+WhatsApp Number: ${phone}
+Service Needed: ${service}
+Message: ${message}
+
+Thank you.`;
+
+      const finalText = currentLang === "id" ? textId : textEn;
+      const whatsappUrl = "https://wa.me/6285715489818?text=" + encodeURIComponent(finalText);
+
+      window.open(whatsappUrl, "_blank", "noopener,noreferrer");
+    });
+
+    setTheme(currentTheme);
+    setLanguage(currentLang);
+    setActiveNav();
+    refreshIcons();
+  </script>
+</body>
+</html>
