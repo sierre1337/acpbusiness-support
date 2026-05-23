@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://acpbusiness-support.my.id/sitemap.xml
