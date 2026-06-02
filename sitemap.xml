@@ -1,10 +1,27 @@
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
 
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-<url>
-<loc>https://acpbusiness-support.my.id/</loc>
-<priority>1.0</priority>
-</url>
+  <url>
+    <loc>https://acpbusiness-support.my.id/</loc>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://acpbusiness-support.my.id/article-perseroan-perorangan.html</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://acpbusiness-support.my.id/article-pt-perorangan-vs-pt-biasa.html</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://acpbusiness-support.my.id/article-kbli-oss-rba.html</loc>
+    <priority>0.8</priority>
+  </url>
 
 </urlset>
+```
